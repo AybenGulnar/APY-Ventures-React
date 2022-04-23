@@ -1,0 +1,116 @@
+body {
+  background-color: #c5d9e4;
+	font-family: sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.temperature-display-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+}
+
+.app {
+  text-align: center
+ 
+}
+.h2 {
+  color: #fff;
+}
+
+.temperature-display {
+	display: flex;
+	border-radius: 50%;
+	color: #ffffff;
+	height: 220px;
+	width: 220px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	border: 3px #ffffff solid;
+	transition: background 0.5s;
+}
+
+.temperature-fah {
+display: flex;
+border-radius: 50%;
+color: #ffffff;
+height: 220px;
+width: 220px;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 48px;
+border: 3px #ffffff solid;
+transition: background 0.5s;
+}
+
+
+.temperature-kelvin {
+  display: flex;
+  border-radius: 50%;
+  color: #ffffff;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+  }
+  
+
+button {
+	border-radius: 100px;
+	height: 80px;
+	width: 80px;
+	font-size: 32px;
+	color: #ffffff;
+	background: rgb(56, 11, 134);
+	border: 2px #ffffff solid;
+}
+
+button:hover {
+	background: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.neutral {
+	background: rgb(184, 184, 184);
+}
+
+.cold {
+	background: #035aa6;
+}
+
+.hot {
+	background: #ff5200;
+}
+.warm {
+  background: #ffeb0ad2;
+}
